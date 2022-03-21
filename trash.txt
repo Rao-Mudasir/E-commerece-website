@@ -1,0 +1,510 @@
+<div class="row text-uppercase">
+				<div class="col-xl-4">
+					<div class="col-12 px-0 mb-0 borderputh1">
+						<h4 class="animated-h1 my-0 title">
+							LAST CHANCE TO BUY
+						</h4>
+					</div>
+					 <div class="owl-carousel" id="slider5">
+						<div class="item ditem">
+							<div class="d-flex flex-column">
+								<div class="ditem1 item2 embed-responsive-1by1">
+								<img src="images/8.jpg" class="img-fluid" alt="" srcset="">
+								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+							</div>
+							</div>
+							
+						</div>
+                    </div>
+				</div>
+				<div class="col-xl-2">
+
+				</div>
+				<div class="col-xl-6">
+					<div class="owl-carousel" id="slider5">
+                
+                    </div>
+				</div>
+			</div>
+
+
+            		<div class="row mt-4">
+			<div class="col-xl-4">
+				<div class="row">
+					<div class="col-12 heading tab-head">
+						<h4 class="animated-h1 title">
+							LAST CHANCE TO BUY
+						</h4>
+					</div>
+					<div class="col-12 text-uppercase text-center px-0 borderput1">
+						 <div class="owl-carousel" id="slider6">
+                         <div class="item bg-white">
+							  <div class="row">
+								  <div class="col-6 pr-0" style="border-right: 1px solid #eeeeee;">
+									  <div>
+							<div class="item2 styleitem2" style="border-bottom: 1px solid #eeeeee;">
+								<div>
+									<img src="images/10.jpg" class="img-fluid" alt="" srcset="">
+								</div>
+								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									<div class="item2 styleitem2">
+										<div>
+										<img src="images/11.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									  </div>
+								  </div>
+								  <div class="col-6 pl-0">
+									  <div>
+		 				 <div class="item2 styleitem2" style="border-bottom: 1px solid #eeeeee;">
+										<div>
+										<img src="images/10.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									<div class="item2 styleitem2">
+										<div>
+										<img src="images/11.jpg" class="img-fluid" alt="" srcset="">
+										</div>								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									  </div>
+								  </div>
+							  </div>
+                        	</div>
+							<div class="item bg-white" style="border-left: .5px solid #eeeeee;">
+							  <div class="row">
+								  <div class="col-6 pr-0 " style="border-right: 1px solid #eeeeee;">
+									  <div>
+									<div class="item2 styleitem2" style="border-bottom: 1px solid #eeeeee;">
+										<div>
+										<img src="images/10.jpg" class="img-fluid" alt="" srcset="">
+										</div>								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									<div class="item2 styleitem2">
+										<div>
+										<img src="images/11.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									  </div>
+								  </div>
+								  <div class="col-6 pl-0">
+									  <div>
+									  <div class="item2 styleitem2" style="border-bottom: 1px solid #eeeeee;">
+										<div>
+										<img src="images/10.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+																		<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									<div class="item2 styleitem2">
+										<div>
+										<img src="images/11.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									  </div>
+								  </div>
+							  </div>
+                        	</div> 
+						</div>
+					</div>
+				</div> 
+			</div>
+			<div class="col-xl-8">
+		<div class="col hidelater">
+			<img src="images/vb-fashion.jpg" alt="" srcset="">
+		</div>
+		<!-- <div class="col">
+				<div class="row">
+					<div class="col-12 heading borderputh1">
+						<h4 class="animated-h1 pb-3">
+							EDITOR'S PICK
+						</h4>
+					</div>
+					<div class="col-12 text-uppercase text-center px-0 borderput1">
+						 <div class="owl-carousel" id="slider5">
+                         <div class="item bg-white">
+							  <div class="row">
+								  <div class="col-6 pr-0" style="border-right: 1px solid #eeeeee;">
+									  <div>
+							<div class="item2 styleitem2" style="border-bottom: 1px solid #eeeeee;">
+								<div>
+									<img src="images/13.jpg" class="img-fluid" alt="" srcset="">
+								</div>
+								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									<div class="item2 styleitem2">
+										<div>
+										<img src="images/12.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									  </div>
+								  </div>
+								  <div class="col-6 pl-0">
+									  <div>
+		 				 <div class="item2 styleitem2" style="border-bottom: 1px solid #eeeeee;">
+										<div>
+										<img src="images/13.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									<div class="item2 styleitem2">
+										<div>
+										<img src="images/12.jpg" class="img-fluid" alt="" srcset="">
+										</div>								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									  </div>
+								  </div>
+							  </div>
+                        	</div>
+							<div class="item bg-white" style="border-left: .5px solid #eeeeee;">
+							  <div class="row">
+								  <div class="col-6 pr-0 " style="border-right: 1px solid #eeeeee;">
+									  <div>
+									<div class="item2 styleitem2" style="border-bottom: 1px solid #eeeeee;">
+										<div>
+										<img src="images/13.jpg" class="img-fluid" alt="" srcset="">
+										</div>								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									<div class="item2 styleitem2">
+										<div>
+										<img src="images/12.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									  </div>
+								  </div>
+								  <div class="col-6 pl-0">
+									  <div>
+									  <div class="item2 styleitem2" style="border-bottom: 1px solid #eeeeee;">
+										<div>
+										<img src="images/13.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+																		<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									<div class="item2 styleitem2">
+										<div>
+										<img src="images/12.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+								<div class="hoverslider2">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									  </div>
+								  </div>
+							  </div>
+                        	</div> 
+						</div>
+					</div>
+				</div> 
+			</div> -->
+	</div>
+		</div>
+
+
+
+
+						  <div class="col-6 pr-0" style="border-right: 1px solid #eeeeee;">
+									  <div>
+							<div class=" styleitem3" style="border-bottom: 1px solid #eeeeee;">
+								<div>
+									<img src="images/13.jpg" class="img-fluid" alt="" srcset="">
+								</div>
+								<div class="d-flex flex-column">
+									<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+								<div class="hoverslider3">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								</div>
+									</div>
+									<div class=" styleitem3">
+										<div>
+										<img src="images/12.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+								<div class="hoverslider3">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									  </div>
+								  </div>
+								  <div class="col-6 pl-0">
+									  <div>
+		 				 <div class=" styleitem3" style="border-bottom: 1px solid #eeeeee;">
+										<div>
+										<img src="images/13.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+								<div class="hoverslider3">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									<div class=" styleitem3">
+										<div>
+										<img src="images/12.jpg" class="img-fluid" alt="" srcset="">
+										</div>								<div class="hoverslider3">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									  </div>
+								  </div>
+							  </div>
+
+
+
+
+							  	  <div class="col-6 pl-0">
+									  <div>
+									  <div class=" styleitem3" style="border-bottom: 1px solid #eeeeee;">
+										<div>
+										<img src="images/13.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+																		<div class="hoverslider3">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									<div class=" styleitem3">
+										<div>
+										<img src="images/12.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+								<div class="hoverslider3">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									  </div>
+								  </div>
+
+
+								   <div class="row">
+				
+                        	</div>
+							<div class="item bg-white" style="border-left: .5px solid #eeeeee;">
+							  <div class="row">
+								  <div class="col-6 pr-0 " style="border-right: 1px solid #eeeeee;">
+									  <div>
+									<div class=" styleitem3" style="border-bottom: 1px solid #eeeeee;">
+										<div>
+										<img src="images/13.jpg" class="img-fluid" alt="" srcset="">
+										</div>								<div class="hoverslider3">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									<div class=" styleitem3">
+										<div>
+										<img src="images/12.jpg" class="img-fluid" alt="" srcset="">
+										</div>
+								<div class="hoverslider3">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="far fa-heart"></i>
+									<i class="fas fa-search"></i>
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="productinfo">
+								<h6>richard mcClintock</h6>
+								<h5 class="pink">$963.00</h5>
+								</div>
+									</div>
+									  </div>
+								  </div>
+							
+							  </div>

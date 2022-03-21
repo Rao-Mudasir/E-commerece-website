@@ -1,0 +1,110 @@
+.block-content>ul>li>i {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.block-content {
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.block-content ul li {
+    margin-bottom: 10px;
+}
+
+.block-content ul li.active {
+    color: #ffb50d;
+    padding-left: 10px;
+}
+
+.block-content ul li {
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.block-content ul li:hover {
+    padding-left: 10px;
+    color: #ffb50d;
+    transition: all 0.5s ease;
+}
+
+.block-content ul li.active a {
+    color: #ffb50d;
+}
+
+.block-content ul li:hover a {
+    color: #ffb50d;
+    transition: all 0.5s ease;
+}
+
+.block-content ul li a {
+    color: black;
+}
+
+.dashboard {
+    border: 1px solid #dddddd;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.page-title h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.dashboard-right p {
+    color: #5f5f5f;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.box-head h2 {
+    font-size: 22px;
+    margin: 20px 0 0;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.box-title {
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 12px 0;
+    position: relative;
+    width: 100%;
+}
+
+.box-title h3 {
+    font-size: 16px;
+    margin: 0;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.box-title>a {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    color: #ffb50d;
+    font-size: 14px;
+
+}
+
+.box h6 {
+    margin-bottom: 0;
+}
+
+.box-content h6 {
+    font-size: 14px;
+    line-height: 25px !important;
+    margin-bottom: 0;
+    color: #5f5f5f;
+    font-weight: 400;
+}
+
+.box a {
+    color: #ffb50d;
+}

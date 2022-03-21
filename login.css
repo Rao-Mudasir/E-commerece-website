@@ -1,0 +1,36 @@
+.theme-card {
+    padding: 30px;
+    border: 1px solid #dddddd;
+    line-height: 1;
+    border-radius: 22px;
+}
+
+@media (max-width: 480px) {
+    .theme-card {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 360px) {
+    .theme-card {
+        padding: 18px;
+    }
+}
+
+.authentication-right {
+    height: calc(100% - 80px);
+}
+
+.authentication-right p {
+    font-size: 14px;
+    color: #555555;
+    line-height: 2;
+    margin-bottom: 1rem;
+}
+
+.authentication-right h6 {
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

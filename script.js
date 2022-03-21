@@ -1,0 +1,220 @@
+
+// for pop upp modal
+$(window).on('load', function () {
+    $('.popup').modal('show');
+}
+);
+// for acccordion
+$(document).ready(function(){
+        // Add minus icon for collapse element which is open by default
+        $(".collapse.show").each(function(){
+        	$(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+        });
+        
+        // Toggle plus minus icon on show hide of collapse element
+        $(".collapse").on('show.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+        }).on('hide.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+        });
+    });
+// for own carousal
+$(document).ready(function(){
+$('#slider1').owlCarousel({
+    loop:true,
+    nav:true,
+    navText: ['<span class="fas fa-chevron-left fa-1x"></span>','<span class="fas fa-chevron-right fa-1x"></span>'],
+    center:true,
+    autoplay:true,
+    autoplayHoverPause:true,
+    smartspeed:200,
+    stagePadding:0,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+});
+$(document).ready(function(){
+$('#slider2').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayHoverPause:true,
+    smartspeed:200,
+    margin:20,
+    stagePadding:0,
+    responsive:{
+        0:{
+            items:2
+        },
+        768:{
+            items:3
+        },
+        992:{
+            items:4
+        },
+        1200:{
+            items:5
+        }
+    }
+});
+});
+$(document).ready(function(){
+$('#slider3').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayHoverPause:true,
+    smartspeed:200,
+    margin:20,
+    stagePadding:0,
+    responsive:{
+        0:{
+            items:1
+        },
+        450:{
+            items:2
+        },
+        768:{
+            items:3
+        },
+        992:{
+            items:4
+        },
+        1200:{
+            items:5
+        }
+    }
+});
+});
+$(document).ready(function(){
+$('#slider4').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayHoverPause:true,
+    smartspeed:200,
+    margin:20,
+    stagePadding:0,
+    responsive:{
+        0:{
+            items:1
+        },
+        450:{
+            items:2
+        },
+        768:{
+            items:3
+        },
+        992:{
+            items:4
+        },
+        1200:{
+            items:5
+        }
+    }
+});
+});
+$(document).ready(function(){
+$('#slider5').owlCarousel({
+    loop:true,
+    rewind:true,
+    autoplayHoverPause:true,
+    smartspeed:200,
+     nav:true,
+    navText: ['<span class="fas fa-chevron-left fa-1x"></span>','<span class="fas fa-chevron-right fa-1x"></span>'],
+    stagePadding:0,
+    responsive:{
+        0:{
+            items:1
+        },
+         992:{
+            items:2,
+             nav:false
+        },
+        1200:{
+            items:1
+        }
+
+    }
+});
+});
+$(document).ready(function(){
+$('#slider6').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayHoverPause:true,
+    smartspeed:200,
+    nav:true,
+    navText: ['<span class="fas fa-chevron-left fa-1x"></span>','<span class="fas fa-chevron-right fa-1x"></span>'],
+    stagePadding:0,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:
+        {
+            items:2
+        }
+    }
+});
+});
+$(document).ready(function(){
+$('#slider7').owlCarousel({
+    autoplay:true,
+    autoplayHoverPause:true,
+    smartspeed:200,
+    stagePadding:0,
+    margin:15,
+   responsive:{
+        0:{
+            items:1
+        },
+         410:{
+            items:2
+        },
+         992:{
+            items:3
+        },
+        1200:{
+            items:4
+        }
+
+    }
+});
+});
+$(document).ready(function(){
+$('#slider8').owlCarousel({
+    autoplay:true,
+    loop:true,
+    autoplayHoverPause:true,
+    smartspeed:200,
+    stagePadding:0,
+     nav:true,
+    navText: ['<span class="fas fa-chevron-left fa-1x"></span>','<span class="fas fa-chevron-right fa-1x"></span>'],
+    margin:10,
+   responsive:{
+        0:{
+            items:2
+        },
+        470:{
+            items:3
+        },
+         540:{
+            items:4
+        },
+         768:{
+            items:5
+        },
+        1200:{
+            items:3
+        }
+
+    }
+});
+});

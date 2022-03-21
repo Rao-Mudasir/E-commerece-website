@@ -1,0 +1,34 @@
+.wishlist-section tbody tr td {
+    min-width: 210px;
+    vertical-align: middle;
+    color: #777777;
+    border-top: 0;
+    border-bottom: 1px solid #eeeeee !important;
+    text-align: center;
+}
+
+.wishlist-section tbody tr td a img {
+    height: 90px;
+    width: 90px;
+}
+
+.cart-table thead th {
+    border-bottom-width: 1px;
+    border-color: #eeeeee !important;
+    font-weight: 900;
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-top: 0;
+    text-align: center;
+    padding: 0 0.75rem 0.75rem 0.75rem;
+}
+
+.wishlist-section tbody tr td a,
+.wishlist-section tbody tr td p {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}

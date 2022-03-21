@@ -1,0 +1,21 @@
+.contact-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.theme-form input {
+    border-color: #dddddd;
+    font-size: 12px;
+    padding: 12px 20px;
+    margin-bottom: 30px;
+    border-radius: 22px;
+    height: inherit;
+}
+
+.btn {
+    background-color: #ffb50d;
+}
+
+.btn:hover {
+    background-color: #ffb50d;
+}

@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<!-- font awsome cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+	<!-- CSS only -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<!-- Bootstrap CSS left and right modal link -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- own carousal -->
+    <link rel="stylesheet" href="owl.carousel.css">
+    <script src="owl.carousel.js"></script>
+	<!-- flip clock animation -->
+
+	<!-- my links -->
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+	</style>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>CONTACT || Bootstrap</title>
+</head>
+<body>
+    	<div class="container-fluid px-0">
+		<div class="container-sm px-sm-0">	
+                <!-- ============ navbar ========= -->
+			<nav class="navbar navbar-expand-lg navbar-light px-0">
+				<!-- ===========modal left============ -->
+				<button class="mt-3 mylefttoggle mb-3 mr-4" id="modal_view_left" data-toggle="modal" data-target="#get_quote_modal">|||</button>
+				<!-- left modal -->
+				<div class="modal modalLft modal_outer left_modal fade" id="get_quote_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" style="background-color: rgba(0, 0, 0, 0.301);">
+					<div class="modal-dialog" role="document" style="width: 280px;">
+						<form method="post" id="get_quote_frm">
+							<div class="modal-content ">
+								<!-- <input type="hidden" name="email_e" value="admin@filmscafe.in"> -->
+								<div class="modal-header">
+									<button type="button" class="close closebutton ml-0" data-dismiss="modal" aria-label="Close"> <i class="fas fa-chevron-left"></i> BACK </button>
+								</div>
+								<div class="modal-body get_quote_view_modal_body">
+									<div class="accordion" id="accordionExample">
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingOne">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne"> Mobiles, Computers <i class="fa fa-plus"></i></button>									
+                </h2> </div>
+											<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+												<div class="card-body">
+													<div class="card card1">
+														<div class="card-header cardheader" id="headingOne">
+															<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne"> Mobiles<i class="fa fa-plus"></i></button>									
+                </h2> </div>
+														<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+															<div class="card-body">
+																<ul class="list-group list-group-flush">
+																	<li class="list-group-item">Mobile Phones</li>
+																	<li class="list-group-item">Televisions</li>
+																	<li class="list-group-item">Refrigerator</li>
+																	<li class="list-group-item">Audio Devices</li>
+																	<li class="list-group-item">Air Conditioners</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="card card1">
+														<div class="card-header cardheader" id="headingOne">
+															<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne"> Electronics<i class="fa fa-plus"></i></button>									
+                </h2> </div>
+														<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+															<div class="card-body">
+																<ul class="list-group list-group-flush">
+																	<li class="list-group-item">Mobile Phones</li>
+																	<li class="list-group-item">Televisions</li>
+																	<li class="list-group-item">Refrigerator</li>
+																	<li class="list-group-item">Audio Devices</li>
+																	<li class="list-group-item">Air Conditioners</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="card card1">
+														<div class="card-header cardheader" id="headingOne">
+															<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne">Computers<i class="fa fa-plus"></i></button>									
+                </h2> </div>
+														<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+															<div class="card-body">
+																<ul class="list-group list-group-flush">
+																	<li class="list-group-item">Mobile Phones</li>
+																	<li class="list-group-item">Televisions</li>
+																	<li class="list-group-item">Refrigerator</li>
+																	<li class="list-group-item">Audio Devices</li>
+																	<li class="list-group-item">Air Conditioners</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingTwo">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseTwo">Appliances,Electronics<i class="fa fa-plus"></i></button>									
+                </h2> </div>
+											<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+												<div class="card-body">
+													<ul class="list-group list-group-flush">
+														<li class="list-group-item">Mobile Phones</li>
+														<li class="list-group-item">Televisions</li>
+														<li class="list-group-item">Refrigerator</li>
+														<li class="list-group-item">Audio Devices</li>
+														<li class="list-group-item">Air Conditioners</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingThree">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseThree">Men's fashion<i class="float-right fa fa-plus"></i> </button>                     
+                </h2> </div>
+											<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+												<div class="card-body">
+													<ul class="list-group list-group-flush">
+														<li class="list-group-item">Mobile Phones</li>
+														<li class="list-group-item">Televisions</li>
+														<li class="list-group-item">Refrigerator</li>
+														<li class="list-group-item">Audio Devices</li>
+														<li class="list-group-item">Air Conditioners</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingFour">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseFour">Women's fashion<i class="float-right fa fa-plus"></i> </button>                     
+                </h2> </div>
+											<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+												<div class="card-body">
+													<ul class="list-group list-group-flush">
+														<li class="list-group-item">Mobile Phones</li>
+														<li class="list-group-item">Televisions</li>
+														<li class="list-group-item">Refrigerator</li>
+														<li class="list-group-item">Audio Devices</li>
+														<li class="list-group-item">Air Conditioners</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingOne">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse">Toys, Baby Product</button>									
+                </h2> </div>
+										</div>
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingOne">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse">Home, Kitchen, Pets</button>									
+                </h2> </div>
+										</div>
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingOne">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse">Supports, Bags, Luggage</button>									
+                </h2> </div>
+										</div>
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingFive">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseFive">Beauty, Health, Grocery<i class="float-right fa fa-plus"></i> </button>                     
+                </h2> </div>
+											<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+												<div class="card-body">
+													<ul class="list-group list-group-flush">
+														<li class="list-group-item">Mobile Phones</li>
+														<li class="list-group-item">Televisions</li>
+														<li class="list-group-item">Refrigerator</li>
+														<li class="list-group-item">Audio Devices</li>
+														<li class="list-group-item">Air Conditioners</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingOne">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse">Books</button>									
+                </h2> </div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- //modal-content -->
+						</form>
+					</div>
+					<!-- modal-dialog -->
+				</div>
+				<!-- modal -->
+				<!-- //left modal -->
+				<!-- Right modal -->
+				<div class="modal modalRgt modal_outer right_modal fade" style="background-color: rgba(0, 0, 0, 0.301);" id="information_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+					<div class="modal-dialog" role="document" style="width: 280px;">
+						<form method="post" id="get_quote_frm">
+							<div class="modal-content ">
+								<!-- <input type="hidden" name="email_e" value="admin@filmscafe.in"> -->
+								<div class="modal-header">
+									<button type="button" class="close closebutton mr-0" data-dismiss="modal" aria-label="Close"> BACK <i class="fas fa-chevron-right"></i> </button>
+								</div>
+								<div class="modal-body get_quote_view_modal_body">
+									<div class="accordion" id="accordionExample">
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingFive">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseFive">HOME<i class="float-right fa fa-plus"></i> </button>                     
+                </h2> </div>
+											<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+												<div class="card-body">
+													<ul class="list-group list-group-flush">
+														<li class="list-group-item">Mega Store 1</li>
+														<li class="list-group-item">Mega Store 2</li>
+														<li class="list-group-item">Mega Store 3</li>
+														<li class="list-group-item">Mega Store 4</li>
+														<li class="list-group-item">kids</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingTwo">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseTwo">Shop<i class="fa fa-plus"></i></button>									
+                </h2> </div>
+											<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+												<div class="card-body">
+													<ul class="list-group list-group-flush">
+														<li class="list-group-item">Mobile Phones</li>
+														<li class="list-group-item">Televisions</li>
+														<li class="list-group-item">Refrigerator</li>
+														<li class="list-group-item">Audio Devices</li>
+														<li class="list-group-item">Air Conditioners</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingThree">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseThree">Product<i class="float-right fa fa-plus"></i> </button>                     
+                </h2> </div>
+											<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+												<div class="card-body">
+													<ul class="list-group list-group-flush">
+														<li class="list-group-item">Mobile Phones</li>
+														<li class="list-group-item">Televisions</li>
+														<li class="list-group-item">Refrigerator</li>
+														<li class="list-group-item">Audio Devices</li>
+														<li class="list-group-item">Air Conditioners</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingFour">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseFour">Pages<i class="float-right fa fa-plus"></i> </button>                     
+                </h2> </div>
+											<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+												<div class="card-body">
+													<ul class="list-group list-group-flush">
+														<li class="list-group-item">Mobile Phones</li>
+														<li class="list-group-item">Televisions</li>
+														<li class="list-group-item">Refrigerator</li>
+														<li class="list-group-item">Audio Devices</li>
+														<li class="list-group-item">Air Conditioners</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingOne">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse">Blog</button>									
+                </h2> </div>
+										</div>
+										<div class="card card1">
+											<div class="card-header cardheader" id="headingOne">
+												<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne">Mega Menu<i class="fa fa-plus"></i></button>									
+                </h2> </div>
+											<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+												<div class="card-body">
+													<div class="card card1">
+														<div class="card-header cardheader" id="headingOne">
+															<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne">ELECTRONICS<i class="fa fa-plus"></i></button>									
+                </h2> </div>
+														<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+															<div class="card-body">
+																<ul class="list-group list-group-flush">
+																	<li class="list-group-item m-0 p-0 liimg"><img src="images/megamenu1.jpg" alt="" class="img-fluid"></li>
+																	<li class="list-group-item">Mobile Phones</li>
+																	<li class="list-group-item">Televisions</li>
+																	<li class="list-group-item">Refrigerator</li>
+																	<li class="list-group-item">Audio Devices</li>
+																	<li class="list-group-item">Air Conditioners</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="card card1">
+														<div class="card-header cardheader" id="headingOne">
+															<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne">FASHION<i class="fa fa-plus"></i></button>									
+                </h2> </div>
+														<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+															<div class="card-body">
+																<ul class="list-group list-group-flush">
+																	<li class="list-group-item m-0 p-0 liimg"><img src="images/megamenu2.jpg" alt="" class="img-fluid"></li>
+																	<li class="list-group-item">Mobile Phones</li>
+																	<li class="list-group-item">Televisions</li>
+																	<li class="list-group-item">Refrigerator</li>
+																	<li class="list-group-item">Audio Devices</li>
+																	<li class="list-group-item">Air Conditioners</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="card card1">
+														<div class="card-header cardheader" id="headingOne">
+															<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne">BEAUTY PRODUCTS<i class="fa fa-plus"></i></button>									
+                </h2> </div>
+														<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+															<div class="card-body">
+																<ul class="list-group list-group-flush">
+																	<li class="list-group-item m-0 p-0 liimg"><img src="images/megamenu3.jpg" alt="" class="img-fluid"></li>
+																	<li class="list-group-item">Mobile Phones</li>
+																	<li class="list-group-item">Televisions</li>
+																	<li class="list-group-item">Refrigerator</li>
+																	<li class="list-group-item">Audio Devices</li>
+																	<li class="list-group-item">Air Conditioners</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="card card1">
+														<div class="card-header cardheader" id="headingOne">
+															<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne">HOME & KITCHEN<i class="fa fa-plus"></i></button>									
+                </h2> </div>
+														<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+															<div class="card-body">
+																<ul class="list-group list-group-flush">
+																	<li class="list-group-item m-0 p-0 liimg"><img src="images/megamenu4.jpg" alt="" class="img-fluid"></li>
+																	<li class="list-group-item">Mobile Phones</li>
+																	<li class="list-group-item">Televisions</li>
+																	<li class="list-group-item">Refrigerator</li>
+																	<li class="list-group-item">Audio Devices</li>
+																	<li class="list-group-item">Air Conditioners</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="card card1">
+														<div class="card-header cardheader" id="headingOne">
+															<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne">BOOKS & MOVIES<i class="fa fa-plus"></i></button>									
+                </h2> </div>
+														<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+															<div class="card-body">
+																<ul class="list-group list-group-flush">
+																	<li class="list-group-item m-0 p-0 liimg"><img src="images/megamenu5.jpg" alt="" class="img-fluid"></li>
+																	<li class="list-group-item">Mobile Phones</li>
+																	<li class="list-group-item">Televisions</li>
+																	<li class="list-group-item">Refrigerator</li>
+																	<li class="list-group-item">Audio Devices</li>
+																	<li class="list-group-item">Air Conditioners</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="card card1">
+														<div class="card-header cardheader" id="headingOne">
+															<h2 class="mb-0">
+                    <button type="button" class="collapsbutton d-flex w-100 justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne">BABY PRODUCTS<i class="fa fa-plus"></i></button>									
+                </h2> 
+            </div>
+														<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+															<div class="card-body">
+																<ul class="list-group list-group-flush">
+																	<li class="list-group-item m-0 p-0 liimg"><img src="images/megamenu6.jpg" alt="" class="img-fluid"></li>
+																	<li class="list-group-item">Mobile Phones</li>
+																	<li class="list-group-item">Televisions</li>
+																	<li class="list-group-item">Refrigerator</li>
+																	<li class="list-group-item">Audio Devices</li>
+																	<li class="list-group-item">Air Conditioners</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- modal-content -->
+						</form>
+					</div>
+					<!-- modal-dialog -->
+				</div>
+				<!-- modal -->
+				<a class="navbar-brand" href="index.html"><img class="img-fluid ml-3 w-75" src="images/9.png" alt="logo"></a>
+				<div class="navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Home
+                            </a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="index.html">mega store 1</a> <a class="dropdown-item" href="#">mega store 2</a> <a class="dropdown-item" href="#">mega store 3</a> <a class="dropdown-item" href="#">mega store 4</a> <a class="dropdown-item" href="#">kids</a> <a class="dropdown-item" href="#">furniture</a> <a class="dropdown-item" href="#">eletronics</a> <a class="dropdown-item" href="#">sports</a> <a class="dropdown-item" href="#">fashion</a> <a class="dropdown-item" href="#">cosmetic</a> <a class="dropdown-item" href="#">tools</a> <a class="dropdown-item" href="#">vegetables</a> </div>
+						</li>
+						<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Shop
+                            </a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="category-page.html">left sidebar</a> <a class="dropdown-item" href="category-page(right).html">right sidebar</a> <a class="dropdown-item" href="category-page(sidebar-popup).html">sidebar popup</a> <a class="dropdown-item" href="category-page(no-sidebar).html">no sidebar</a> <a class="dropdown-item" href="category-page(metro).html">metro </a> <a class="dropdown-item" href="category-page(full-width).html">full width </a> <a class="dropdown-item" href="category-page(infinite-scroll).html">infinite scroll</a> <a class="dropdown-item" href=category-page(3-grid).html>three grid</a> <a class="dropdown-item" href="category-page(6-grid).html">six grid</a> <a class="dropdown-item" href="category-page(list-view).html">list view</a> </div>
+						</li>
+						<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Product
+                            </a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="category-page.html">left sidebar</a> <a class="dropdown-item" href="category-page(right).html">right sidebar</a> </div>
+						</li>
+						<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pages
+                            </a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="nav-link dropdown-toggle accou" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Account
+                            </a>
+								<div class="dropdown-menu submenu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="wishlist.html">wishlist</a> <a class="dropdown-item" href="cart.html">cart</a> <a class="dropdown-item" href="dashboard.html">Dashboard</a> <a class="dropdown-item" href="login.html">login</a> <a class="dropdown-item" href="register.html">register</a> <a class="dropdown-item" href="contact.html">contact</a> <a class="dropdown-item" href="forget_pwd.html">forget password</a> <a class="dropdown-item" href="profile.html">profile </a> <a class="dropdown-item" href="checkout.html">checkout</a> </div> <a class="dropdown-item" href="about-page.html">about us</a> <a class="dropdown-item" href="search.html">search</a> <a class="dropdown-item" href="typography.html">typography </a> <a class="dropdown-item" href="order-success.html">order success</a> <a class="dropdown-item" href="order-history.html">order history</a> </div>
+						</li>
+						<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Blog
+                            </a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="category-page.html">left sidebar</a> <a class="dropdown-item" href="category-page(right).html">right sidebar</a> <a class="dropdown-item" href="category-page(sidebar-popup).html">sidebar popup</a> <a class="dropdown-item" href="category-page(no-sidebar).html">no sidebar</a> <a class="dropdown-item" href="category-page(metro).html">metro </a> <a class="dropdown-item" href="category-page(full-width).html">full width </a> <a class="dropdown-item" href="category-page(infinite-scroll).html">infinite scroll</a> <a class="dropdown-item" href=category-page(3-grid).html>three grid</a> <a class="dropdown-item" href="category-page(6-grid).html">six grid</a> <a class="dropdown-item" href="category-page(list-view).html">list view</a> </div>
+						</li>
+						<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Mega Menu
+                            </a>
+							<div class="dropdown-menu megamenu text-uppercase text-decoration-none" aria-labelledby="navbarDropdown">
+								<a href="dropdown-item" class="text-decoration-none">
+									<div class="container-fluid">
+										<div class="row">
+											<div class="col-2 megamenuh4">
+												<h4 class="mb-2">ELECTRONICS</h4>
+												<ul class="list-group mx-0 megamenuliaimg">
+													<li class="list-group-item m-0 p-0 liimg"><img src="images/megamenu1.jpg" alt="" class="img-fluid"></li>
+													<li class="list-group-item border-0 my-0 mx-0 p-0"><a target="_blank" href="#">Mobile phones</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">televisions</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">refrigerator</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">audio devices</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">Air Conditioners</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">laptop & PC</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a href="dropdown-item" class="text-decoration-none">
+									<div class="container-fluid">
+										<div class="row">
+											<div class="col-2 megamenuh4">
+												<h4 class="mb-2">FASHION</h4>
+												<ul class="list-group mx-0 megamenuliaimg">
+													<li class="list-group-item m-0 p-0 liimg"><img src="images/megamenu2.jpg" alt="" class="img-fluid"></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">Mobile phones</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">televisions</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">refrigerator</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">audio devices</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">Air Conditioners</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">laptop & PC</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a href="dropdown-item" class="text-decoration-none">
+									<div class="container-fluid">
+										<div class="row">
+											<div class="col-2 megamenuh4">
+												<h4 class="mb-2">BEAUTY PRODUCTS</h4>
+												<ul class="list-group mx-0 megamenuliaimg">
+													<li class="list-group-item m-0 p-0 liimg"><img src="images/megamenu3.jpg" alt="" class="img-fluid"></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">Mobile phones</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">televisions</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">refrigerator</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">audio devices</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">Air Conditioners</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">laptop & PC</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a href="dropdown-item" class="text-decoration-none">
+									<div class="container-fluid">
+										<div class="row">
+											<div class="col-2 megamenuh4">
+												<h4 class="mb-2">HOME & KITCHEN</h4>
+												<ul class="list-group mx-0 megamenuliaimg">
+													<li class="list-group-item m-0 p-0 liimg"><img src="images/megamenu4.jpg" alt="" class="img-fluid"></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">Mobile phones</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">televisions</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">refrigerator</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">audio devices</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">Air Conditioners</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">laptop & PC</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a href="dropdown-item" class="text-decoration-none">
+									<div class="container-fluid">
+										<div class="row">
+											<div class="col-2 megamenuh4">
+												<h4 class="mb-2">BOOKS & MOVIES</h4>
+												<ul class="list-group mx-0 megamenuliaimg">
+													<li class="list-group-item m-0 p-0 liimg"><img src="images/megamenu5.jpg" alt="" class="img-fluid"></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">Mobile phones</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">televisions</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">refrigerator</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">audio devices</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">Air Conditioners</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">laptop & PC</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a href="dropdown-item">
+									<div class="container-fluid" class="text-decoration-none">
+										<div class="row">
+											<div class="col-2 megamenuh4">
+												<h4 class="mb-2">BABY PRODUCTS</h4>
+												<ul class="list-group mx-0 megamenuliaimg">
+													<li class="list-group-item m-0 p-0 liimg"><img src="images/megamenu6.jpg" alt="" class="img-fluid"></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">Mobile phones</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">televisions</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">refrigerator</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">audio devices</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">Air Conditioners</a></li>
+													<li class="list-group-item border-0 my-0 p-0"><a target="_blank" href="#">laptop & PC</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<button class="btn  btn-success  ml-auto mr-2 myrighttoggle" id="modal_view_right" data-toggle="modal" data-target="#information_modal">|||</button>
+					<form class="form-inline my-2 my-lg-0 innerrinput">
+						<input class="form-control mr-sm-2 searchinginput" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn my-2 my-sm-0 searchin" type="submit"><i class="fas fa-search"></i></button>
+					</form>
+					<ul class="icons list-group list-group-horizontal d-flex">
+						<li class="list-group-item border-0 pl-2 "><a href="#myModal" role="button" class="searchbuttonresponsive" data-toggle="modal"><i class="fas fa-search"></i></a>
+							<div class="modal searchmodal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+								<div class="modal-dialog modal-full" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title">Search</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span> </button>
+										</div>
+										<div class="modal-body p-4" id="result">
+											<div class="form-group modalform">
+												<input type="text" class="form-control modalinput" id="exampleInputPassword1" placeholder="Search a Product">
+												<button type="submit" class="searchbuttonrespo"><i class="fa fa-search"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="list-group-flush list-group icons"></ul>
+						</li>
+						<li class="list-group-item border-0 pl-4"><i class="far fa-user fonts"></i></li>
+						<li class="list-group-item border-0"><i class="fas fa-cog fonts"></i></li>
+						<li class="list-group-item border-0"><i class="far fa-heart fonts"></i></li>
+						<li class="list-group-item border-0"><i class="fas fa-shopping-cart fonts"></i></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+        <!-- ============nzvbar end============= -->
+        </div>	
+        <!-- =================common section in every page start============= -->
+        <section class="breadcrumb-section section-b-space">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <div class="page-title">
+                    <h2>CONTACT</h2>
+                </div>
+            </div>
+            <div class="col-12">
+                <nav aria-label="breadcrumb" class="theme-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active gray" aria-current="page">CONTACT</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- =================common section in every page end============= -->
+<!-- =================main content of page start================= -->
+<section class="contact-page sectionspace pb-0">
+    <div class="container">
+        <div class="row section-b-space">
+            <div class="col-lg-7 map">
+                <form class="theme-form">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label for="name">First Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Your name" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="review">Phone number</label>
+                            <input type="text" class="form-control" placeholder="Enter your number" required="">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" placeholder="Email" required="">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="review">Write Your Message</label>
+                            <textarea class="form-control" placeholder="Write Your Message" id="exampleFormControlTextarea1" rows="6"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="btn btn-solid" type="submit">Send Your Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-5">
+                <div class="contact-right">
+                    <ul>
+                        <li>
+                            <div class="contact-icon"><i class="fa fa-phone" aria-hidden="true"></i>
+                                <h6>Contact Us</h6></div>
+                            <div class="media-body">
+                                <p>+91 123 - 456 - 7890</p>
+                                <p>+86 163 - 451 - 7894</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <h6>Address</h6></div>
+                            <div class="media-body">
+                                <p>ABC Complex,Near xyz, New York</p>
+                                <p>USA 123456</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <h6>Address</h6></div>
+                            <div class="media-body">
+                                <p>Support@Shopcart.com</p>
+                                <p>info@shopcart.com</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon"><i class="fa fa-fax" aria-hidden="true"></i>
+                                <h6>Fax</h6></div>
+                            <div class="media-body">
+                                <p>Support@Shopcart.com</p>
+                                <p>info@shopcart.com</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+        </div>
+    </div>
+    <div class="container-fluid map px-0">
+        <iframe class="border-0 " src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1605.811957341231!2d25.45976406005396!3d36.3940974010114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1550912388321"></iframe>
+    </div>
+</section>
+
+<!-- =================main content of page end================= -->
+
+<!-- ====================footer 1 section end================ -->
+				<!-- ==========footer 2 section start==================== -->
+<section class="footer2">
+	<div class="container-fluid px-0 bg-pr">
+		<div class="row mx-0">
+			<div class="col-12 text-white py-3 px-0 px-5">
+				<div class="subscribe-content d-flex justify-content-around align-items-center px-xl-5">
+                        <h4 class="text-uppercase mb-0" style="font-size:1.3rem"> <i class="fa fa-envelope-o" aria-hidden="true"> </i>  newsletter</h4>
+                        <h4 class="hide992">|</h4>
+						<p class="mb-0 ">If you are going to use a passage of Lorem you need. </p>
+                        <form class="form-inline subscribe-form d-block">
+                            <div class="form-group mb-0 footer2input">
+                                <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Email...">
+								<button type="submit" class="btn btn-solid footer2button">subscribe</button>
+							</div>
+                        </form>
+                    </div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- ====================footer 2 section end================ -->
+
+<!-- ==========footer 3 section start==================== -->
+
+<section class="footer3">
+	<div class="container-sm">
+		<div class="row">
+			<div class="col-xl-4 border-right col-lg-12 coulmrever">
+				<div class="columrev">
+					<div class="footer-title ftnone py-3">
+						<h4>About</h4>
+					</div>
+					<img src="images/9.png" class="img-fluid mb-4" alt="">
+					<p class="gray pb-4 mb-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution</p>
+				</div>
+				<div class="instapics" style="overflow: hidden; cursor: pointer;">
+					<div>
+						<div class="instabanner">
+							<h5 class="gray">
+								Follow us<span style="color: black;"> #BigMarket</span>
+							</h5>
+						</div>
+					<div class="container">
+						<div class="row justify-content-center align-items-center">
+							<div class="col p-0" style="overflow: hidden;">
+								<img src="images/insta1.jpg" class="img-fluid" alt="">
+								<div class="overlay">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </div>
+							</div>
+							<div class="col p-0" style="overflow: hidden;">
+								<img src="images/insta2.jpg" class="img-fluid" alt="">
+								<div class="overlay">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </div>
+							</div>
+							<div class="col p-0" style="overflow: hidden;">
+								<img src="images/insta3.jpg" class="img-fluid" alt="">
+								<div class="overlay">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </div>
+							</div>
+							<div class="col p-0" style="overflow: hidden;">
+								<img src="images/insta4.jpg" class="img-fluid" alt="">
+								<div class="overlay">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </div>
+							</div>
+							<div class="col p-0" style="overflow: hidden;">
+								<img src="images/insta5.jpg" class="img-fluid" alt="">
+								<div class="overlay">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </div>
+							</div>
+						</div>
+					</div>
+						<div class="container">
+						<div class="row justify-content-center align-items-center" >
+							<div class="col p-0" style="overflow: hidden;">
+								<img src="images/insta6.jpg" class="img-fluid" alt="">
+								<div class="overlay">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </div>
+							</div>
+							<div class="col p-0" style="overflow: hidden;">
+								<img src="images/insta10.jpg" class="img-fluid" alt="">
+								<div class="overlay">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </div>
+							</div>
+							<div class="col p-0" style="overflow: hidden;">
+								<img src="images/insta7.jpg" class="img-fluid" alt="">
+								<div class="overlay">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </div>
+							</div>
+							<div class="col p-0" style="overflow: hidden;">
+								<img src="images/insta8.jpg" class="img-fluid" alt="">
+								<div class="overlay">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </div>
+							</div>
+							<div class="col p-0" style="overflow: hidden;">
+								<img src="images/insta9.jpg" class="img-fluid" alt="">
+								<div class="overlay">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+
+			</div>
+			<div class="col-xl-8 col-lg-12 text-uppercase">
+				<div class="row">
+                        <div class="col-lg-3 footer-link">
+                            <div>
+                                <div class="footer-title">
+                                    <h4>my account</h4>
+                                </div>
+                                <div class="footer-content">
+                                    <ul>
+                                        <li><a href="#">about us</a></li>
+                                        <li><a href="#">contact us</a></li>
+                                        <li><a href="#">terms &amp; conditions</a></li>
+                                        <li><a href="#">return &amp; exchanges</a></li>
+                                        <li><a href="#">secure shopping</a></li>
+                                        <li><a href="#">shipping &amp; delivery</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 footer-link">
+                            <div>
+                                <div class="footer-title">
+                                    <h4>quick link</h4>
+                                </div>
+                                <div class="footer-content">
+                                    <ul>
+                                        <li><a href="#">store location</a></li>
+                                        <li><a href="#">my account</a></li>
+                                        <li><a href="#">order tracking</a></li>
+                                        <li><a href="#">size guide</a></li>
+                                        <li><a href="#">my cart</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 footer-link">
+                            <div>
+                                <div class="footer-title">
+                                    <h4>category</h4>
+                                </div>
+                                <div class="footer-content">
+                                    <ul>
+                                        <li><a href="#">fashion</a></li>
+                                        <li><a href="#">shoes</a></li>
+                                        <li><a href="#">cosmetic</a></li>
+                                        <li><a href="#">mobile</a></li>
+                                        <li><a href="#">electronics</a></li>
+                                        <li><a href="#">bags</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 footer-link">
+                            <div>
+                                <div class="footer-title">
+                                    <h4>contact us</h4>
+                                </div>
+                                <div class="footer-content">
+                                    <ul class="contact-list">
+                                        <li><i class="fa fa-map-marker"></i>Fiot Fashion Demo Store
+                                            India-3654123</li>
+                                        <li><i class="fa fa-phone"></i>Call Us: 123-456-7898</li>
+                                        <li><i class="fa fa-envelope-o"></i>Email Us: Support@Fiot.com</li>
+                                        <li><i class="fa fa-fax"></i>Fax: 123456</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col-12">
+                            <div class="callus">
+                                <div class="footer-banner-content">
+                                    <div class="call-text">
+                                        <div>
+                                            <h3>call us:</h3>
+                                            <span class="call-no">123-456-7890 <span>(24 X 7)</span></span>
+                                        </div>
+                                    </div>
+                                    <div class="footer-social">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ====================footer 3 section end================ -->
+<!-- ====================footer 4 section start================ -->
+<div class="container-sm">
+<div class="row">
+                <div class="col-12">
+                    <div class="footer-bottom border-top">
+                        <ul>
+                            <li><a href="#">mens</a></li>
+                            <li><a href="#">womens</a></li>
+                            <li><a href="#">clothing</a></li>
+                            <li><a href="#">accessories</a></li>
+                            <li><a href="#">featured</a></li>
+                            <li><a href="#">service</a></li>
+                            <li><a href="#">cart</a></li>
+                            <li><a href="#">my order</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+</div>
+<div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-6 col-sm-12" style="display: flex; justify-content: center;">
+                    <div class="footer-end">
+                        <p>	&#9400;  2021-22 Next Logixs powered by <span style="font-size: larger;">&#10084;</span></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6 col-sm-12" style="display: flex; justify-content: center;">
+                    <div class="payment-card-bottom">
+                        <ul class="d-flex">
+                            <li>
+                                <a href="#"><img src="images/visa.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/mastercard.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/paypal.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/american-express.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/discover.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+		
+<!-- ====================footer 4 section end================ -->	
+        </div>
+    
+</body>
+</html>
